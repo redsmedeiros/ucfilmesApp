@@ -12,6 +12,7 @@ app.use(express.static('public'))
 
 //rotas
 app.use('/api/cameras', CameraRoutes)
+app.use('/api/lentes', LentesRoutes)
 
 //porta
 const port = 5000
